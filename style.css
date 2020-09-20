@@ -1,4 +1,20 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:grey;
+}
+
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 300;
+    padding: 20px;
+    border-radius: 25px;
+    align-content: center;
+}
 
 
