@@ -13,7 +13,7 @@ function compute()
     document.getElementById("result").innerHTML = '<br/>If you deposit <span class="results">'+ principal +'</span><br/> at an interest rate of <span class="results">' + rate + '</span> <br/> You will receive an amount of <span class="results">' + interest + '</span> <br/> in the year <span class="results">' + future + '</span><br/>';
     
     //Validating principal is a positive number, then setting the focus to the principal field
-    if(parseInt(principal) <=0 || parseInt(principal) == '') {
+    if(parseInt(principal) <=0 || principal == '') {
         alert('Enter a positive number');
         document.getElementById("principal").focus();
     }
